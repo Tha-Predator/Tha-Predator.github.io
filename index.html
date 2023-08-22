@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- nav section -->
+    <header>
+        <!-- logo and toggle container -->
+        <div class="main-container">
+        <div class="logo--container">
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <!-- nav-links -->
+    <div></div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link scroll-link"></i>home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link scroll-link">about</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link scroll-link">work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link scroll-link">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <!--introductory part-->
+    <section class="intro" id="home">
+        <div class="container">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>oluwaseun</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro paragraph">I can make all your imaginations come to reality.</p>
+        <a href="./images/Oladaposeunemmmanuel NEW CV.pdf" download="pdf">
+            <button class="btn main-btn">
+                download cv
+                <i class="fas fa-download"></i>
+            </button>
+        </a>
+    </div>
+            <img src="./images/seun.JPG" alt="profile-pic.png" class="intro__img">
+    </div>
+    </section>
+
+    <!--about page-->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about section__title--anim">who i am</h2>
+        <div class="section__title--content">
+            <img src="./images/seun & jamo.jpg" alt="about-pic.png" class="about-me__img">
+        <div>
+        <p class="section__subtitle section__subtitle--about">Front-End Web Developer</p>
+        <div class="about-me__body">
+            <p>I'm Oladapo Oluwaseun Emmanuel, i am a 2019 graduate of The Polytechnic Ibadan. I am an Intermediate Front-End Web Developer who is looking for an opening where i can contribute my knowledge and further develop and widen my horizon. I had also worked at balda hospital where i was an I.T intern but i am a man who loves challenges and that was what made me dive in into tech and start writing codes. I am an energetic and highly motivated person who value the efficiency of team work and the good image of the organization.</p>
+        </div>
+        </div>
+    
+        </div>
+    </section>
+
+    <!--work section-->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work section__title--work--anim">my work</h2>
+        <p class="section__subtitle section__subtitle--work section__title--work--head--anim">my past works</p>
+
+        <div class="portfolio">
+            <!--portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="./images/project-1.png" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="./images/project-2.png" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="./images/project-3.png" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="./images/project-2.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <section class="my-contact" id="contact">
+        <h2 class="section__title section__title--contact  section__title--contact-anim">contact us</h2>
+        <div class="my-contact--form--container">
+        <form  class="my-contact--form">
+            <p class="alert"></p>
+            <label for="Name">
+                <input type="text" placeholder="Name" class="input-list">
+            </label>
+            <label for="Name">
+                <input type="email" placeholder="Email" class="input-list1">
+            </label>
+            <label for="message">
+                <textarea name="text" id="" cols="30" rows="10" placeholder="Message" class="message"></textarea>
+            </label>
+            <button class="btn btn-form">submit</button>
+        </form>
+    </div>
+    </section>
+
+    <!--footer-->
+
+<footer class="footer">
+    <!--email-->
+    <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link"><i class="fab fa-codepen"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link"><i class="fab fa-dribbble"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link"><i class="fab fa-github"></i></a></li>
+        <li class="social-list__item"><a href="tel: +2348166763520" class="social-list__link"><i class="fas fa-phone"></i></a></li>
+    </ul>
+    <address class="address"><i class="fas fa-location-dot locate"></i>19, Awadun Street, obawole, lagos, nigeria</address>
+    <p class="social-list-copyright"> All rights reserved &copy <span class="date"></span></p>
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>
