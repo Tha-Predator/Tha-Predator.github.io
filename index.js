@@ -45,7 +45,7 @@ let formValue2 = input2.value;
 let messageValue = message.value;
 
 if(formValue1 === "" || formValue2 === "" || messageValue === ""){
-    displayAlert('Text fields cannot be empty', "danger");
+    displayAlert('Text required', "danger");
 } else {
     let data = [{
         "name": formValue1,
